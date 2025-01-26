@@ -93,7 +93,7 @@ const StartupForm = () => {
           name="title"
           className="startup-form_input"
           required
-          placeholder="JSM Academy Masterclasss"
+          placeholder="YC Directory Blog Title"
         />
 
         {errors.title && <p className="startup-form_error">{errors.title}</p>}
